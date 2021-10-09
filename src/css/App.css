@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.container2 {
+  margin-top: 10vh;
+}
+
+.abttop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 30px 0;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact .contactimg {
+  width: 40%;
+}
+
+.contact img {
+  height: 90vh;
+}
+
+.contact .add {
+  padding-top: 30vh;
+  width: 25%;
+  background-color: gray;
+}
+
+.contact .form {
+  padding-top: 150px;
+  background-color: #131212;
+  width: 35%;
+  color: whitesmoke;
+}
+
+.contact .form .form1 {
+  margin-left: 20px;
+  text-align: start;
+}
+
+.contact .form .form1 button {
+  padding: 5px;
+  margin: 20px;
+}
+
+.testimonial {
+  background-color: #fadacd;
+  height: 90vh;
+  padding: 50px;
+}
+
+.testimonial .testimg {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.abtdesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 40px;
+  padding: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.phead {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.mainprow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.prow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product img {
+  border: 2px solid black;
+}
+
+#tshirt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+#tshirt img {
+  height: 200px;
+}
+
+.tstyle {
+  height: 90vh;
+  background-color: #f3be0e9f;
+  margin-top: 65px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tstyle #tdesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 30vh;
+  width: 40vw;
+}
+
+.tstyle #tt {
+  margin: 20vh 0 10vh 0;
+  float: inline-end;
+  padding: 50px;
+}
+
+.tstyle #tt img {
+  margin-bottom: 10vh;
+}
+
+#tshirt img {
+  margin-top: 10px;
+  height: 100px;
+}
+
+#logo {
+  float: left;
+}
+
+nav {
+  overflow: hidden;
+  background-color: snow;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 10vh;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+nav ul li {
+  display: inline;
+  font-family: Fira Sans, sans-serif;
+  font-size: 17px;
+}
+
+nav ul li img {
+  margin-left: 20px;
+  height: 2rem;
+  float: right;
+}
+
+nav ul li a {
+  color: #131212;
+  text-decoration: none;
+  padding: 14px;
+}
+
+nav ul li a:hover {
+  background-color: #929090;
+}
+/*# sourceMappingURL=App.css.map */
